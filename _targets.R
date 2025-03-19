@@ -31,7 +31,7 @@ list(
   ),
   tar_target(
     name = snorkel_files,
-    command = here("data", "Snorkel Indexes", list.files(here("data", "Snorkel Indexes"))),
+    command = here("data", "snorkel_indexes", list.files(here("data", "snorkel_indexes"))),
     format = "file"
   ),
   tar_target(
