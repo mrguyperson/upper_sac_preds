@@ -40,7 +40,10 @@ get_pred_summary_data <- function(path) {
         pivot_wider(names_from = "Fish_Spott", values_from = "Number_of_") %>%
         rename_with(tolower) %>%
         rename(date = datetime, site = side_chann, habitat = habitat_ty, unit_num = unit_numbe) %>%
-        mutate(across(pikeminnow:pond_turtle, ~replace_na(.x, 0)))
+        mutate(
+            across(pikeminnow:pond_turtle, ~replace_na(.x, 0)),
+            date = ymd(date),
+            time = hms(date))
 }
 
 read_snorkel_data <- function(path) {
@@ -85,7 +88,8 @@ read_snorkel_data <- function(path) {
                 weather_code == "6" ~ "Fog",
                 .default = weather_code,
 
-            )
+            ),
+            date = ymd(date)
         )
 }
 
