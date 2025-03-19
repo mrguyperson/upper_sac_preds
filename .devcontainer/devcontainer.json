@@ -9,7 +9,7 @@
             "packages": "libudunits2-dev,libxtst6,libxt6,libmagick++-dev,libglpk-dev"
         },
         "ghcr.io/rocker-org/devcontainer-features/r-packages:1": {
-            "packages": "github::rstudio/renv,tidyverse,here,httpgd,microbenchmark,janitor,readxl,igraph,targets,qs2"
+            "packages": "github::rstudio/renv,tidyverse,here,httpgd,microbenchmark,janitor,readxl,targets,qs2"
         },
     },
     "customizations": {
