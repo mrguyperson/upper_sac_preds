@@ -1,0 +1,8 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+pred_file|stem|2c516cc8963cf02a|cc7669bd5fcb66b8|2c530c1562a7fbd1|-1392256631|/workspaces/upper_sac_preds/data/adult predators 2016-2024.xlsx|t20166.3929886928s|s29807b|29807|file|local|vector|||0.362||
+pred_data|stem|06b8835150fcedcb|9452da255a8c22b6|dc8e584fe5279640|-941110151||t20166.5753608551s|s5389b|5389|qs|local|vector|||0.055|Expecting date in A62  R62C1 got 8162021. Expecting date in A63  R63C1 got 8162021|
+snorkel_files|stem|88bacf8db462c656|d914822f4e945f25|2c530c1562a7fbd1|-1803849358|/workspaces/upper_sac_preds/data/Snorkel Indexes/2015-19 Snorkel Data - Template for Zach.xlsx*/workspaces/upper_sac_preds/data/Snorkel Indexes/2021-2022 snorkel index survey data (1).xlsx*/workspaces/upper_sac_preds/data/Snorkel Indexes/Jan - April 2024 Snorkel Index Data.xlsx*/workspaces/upper_sac_preds/data/Snorkel Indexes/Jan - Dec 2023 Snorkel Index Data.xlsx*/workspaces/upper_sac_preds/data/Snorkel Indexes/May 2022 - December 2022 snorkel index survey data.xlsx*/workspaces/upper_sac_preds/data/Snorkel Indexes/Snorkel Data 9-1-2021.xlsx*/workspaces/upper_sac_preds/data/Snorkel Indexes/SNORKEL INDEX SIDE CHANNEL DAILY DATA 2020_2021 (1).xlsx|t20166.5760043358s|s8678460b|8678460|file|local|vector|||0.48||
+read_snorkel_data|function|8a6918b2de98284c
+get_pred_summary_data|function|f2415e5b29d0a328
+get_snorkel_data|function|14a6a04b5d2d1e64
+snorkel_data|stem|99996bd8b63b378e|15e7d121b7e627dd|3cbf6b9d67e24ff7|-1575447472||t20166.5776127194s|s19401b|19401|qs|local|vector|||0.743||
